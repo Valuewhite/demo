@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!-- 这里可以引入你自己的CSS文件 -->
+    <!-- <link rel="stylesheet" href="your-own-style.css"> -->
+</head>
+<body>
+<h1>首页内容</h1>
+
+<!-- 可以在这里放置时间显示容器，也可以不放置（脚本会自动创建） -->
+ <div id="time-display-container"></div>
+
+<!-- 引入时间显示脚本 -->
+<script src="common/time-display.js"></script>
+<script>
+    // 初始化时间显示
+    // 可以指定容器ID，如 initTimeDisplay('my-custom-time-container')
+    // 如果不指定，将使用默认ID并自动创建容器
+    initTimeDisplay();
+</script>
+</body>
+</html>
